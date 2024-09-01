@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-This project focuses on identifying fraudulent credit card transactions using machine learning techniques. The dataset employed is significantly imbalanced, with most transactions being legitimate. Logistic Regression is the primary algorithm used to predict whether a transaction is fraudulent.
+This project aims to detect fraudulent credit card transactions using machine learning. The dataset used is highly imbalanced, with the majority of transactions being legitimate. The primary algorithm used is Logistic Regression, which helps in predicting whether a transaction is fraudulent or not.
 
 ## Table of Contents
 - [Dataset](#dataset)
@@ -10,7 +10,7 @@ This project focuses on identifying fraudulent credit card transactions using ma
 - [Results](#results)
 
 ## Dataset
-The dataset for this project is `creditcard.csv`, which includes 284,807 transactions across 30 feature columns, such as transaction time, amount, and a `Class` column indicating whether a transaction is fraudulent (1) or legitimate (0).
+The dataset used for this project is creditcard.csv, which contains 284,807 transactions with 30 feature columns including the transaction Time and Amount, and the Class column indicating whether a transaction is fraudulent (1) or legitimate (0).
 
 ## Dependencies
 - Python 3.x
@@ -19,35 +19,29 @@ The dataset for this project is `creditcard.csv`, which includes 284,807 transac
 - Scikit-learn
 
 ## Usage
-Ensure the `creditcard.csv` file is located in the project directory.
+
+Ensure you have the dataset file creditcard.csv in the project directory.
 
 Run the script to train and evaluate the model:
 
-```bash
+bash
 python fraud_detection.py
 
-The script will perform the following steps:
+The script will:
 
-1. Load and preprocess the dataset.
-2. Balance the dataset through under-sampling.
-3. Split the dataset into training and testing sets.
-4. Train a Logistic Regression model.
-5. Evaluate the model on both the training and testing sets.
-
+- Load and preprocess the dataset.
+-  Balance the dataset using under-sampling.
+-  Split the dataset into training and testing sets.
+-  Train a Logistic Regression model.
+-  Evaluate the model on both training and testing sets.
 ## Expected Results
+The script will output the following results:
 
-The script will output the following metrics:
-
-- **Training Data Accuracy:** The model's accuracy on the training set.
-- **Test Data Accuracy:** The model's accuracy on the testing set.
-
-Example results:
-
+- Training Data Accuracy: The accuracy of the model on the training set.
+- Test Data Accuracy: The accuracy of the model on the testing set.
 - Training data accuracy: 0.94
 - Test data accuracy: 0.92
-
-## Dataset
-
+ ##  Dataset
 The dataset used in this project is available on Google Drive. You can download it using the following link:
 
-[Download Dataset](https://drive.google.com/file/d/1rRogMGc0D9QqR9Zhszw54tBpsFG4gcNR/view?usp=sharing)
+https://drive.google.com/file/d/1rRogMGc0D9QqR9Zhszw54tBpsFG4gcNR/view?usp=sharing
