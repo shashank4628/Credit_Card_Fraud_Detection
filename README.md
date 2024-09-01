@@ -25,6 +25,7 @@ Run the script to train and evaluate the model:
 
 ```bash
 python fraud_detection.py
+
 The script will perform the following steps:
 
 1. Load and preprocess the dataset.
